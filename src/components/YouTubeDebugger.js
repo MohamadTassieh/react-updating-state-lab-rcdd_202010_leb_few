@@ -3,7 +3,7 @@ import React from 'react';
 class YouTubeDebugger extends React.Component {
    constructor() {
     super();
-    
+
     this.state = {
     errors: [],
     user: null,
@@ -16,7 +16,7 @@ class YouTubeDebugger extends React.Component {
     };
   }
 
-    
+
   handleClickb = () => {
   this.setState({
       settings: {
@@ -25,7 +25,7 @@ class YouTubeDebugger extends React.Component {
       }
     });
   };
-  
+
   handleClickr = () => {
  this.setState({
       settings: {
@@ -37,7 +37,7 @@ class YouTubeDebugger extends React.Component {
       }
     });
   };
-    
+
   render() {
     return (
     <div>
